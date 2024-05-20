@@ -59,21 +59,17 @@ namespace Service.Service
         public PontosTotaisDto CalcularPontosTotais(Familia familia)
         {
             var ptRenda = CalcularPontosPorRenda(familia);
-            //var ptIdade = CalcularPontosPorIdade(familia);
             var ptDependente = CalcularPontosPorDependente(familia);
 
             var qtdCriteriosAtendido = 0;
             if (ptRenda > 0)
                 qtdCriteriosAtendido++;
-            //if (ptIdade > 0)
-            //    qtdCriteriosAtendido++;
             if (ptDependente > 0)
                 qtdCriteriosAtendido++;
 
 
             return new PontosTotaisDto
             {
-                //TotalDePontos = ptRenda + ptIdade + ptDependente,
                 TotalDePontos = ptRenda +  ptDependente,
                 QuantidadeDeCriteriosAtendidos = qtdCriteriosAtendido
             };
@@ -82,10 +78,7 @@ namespace Service.Service
         private int CalcularCriteriosAtendidos(Familia familia)
         {
             var criteriosAtendidos = 0;
-            //if (CalcularPontosPorIdade(familia) > 0)
-            //{
-            //    criteriosAtendidos++;
-            //}
+          
             if (CalcularPontosPorRenda(familia) > 0)
             {
                 criteriosAtendidos++;
