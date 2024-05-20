@@ -24,15 +24,9 @@ namespace Service.Service
             {
                 return 5;
             }
-
             else if (renda <= 1500)
             {
                 return 3;
-            }
-
-            else if (renda <= 2000)
-            {
-                return 1;
             }
 
             return 0;
@@ -70,7 +64,7 @@ namespace Service.Service
 
             return new PontosTotaisDto
             {
-                TotalDePontos = ptRenda +  ptDependente,
+                TotalDePontos = ptRenda + ptDependente,
                 QuantidadeDeCriteriosAtendidos = qtdCriteriosAtendido
             };
         }
@@ -78,7 +72,7 @@ namespace Service.Service
         private int CalcularCriteriosAtendidos(Familia familia)
         {
             var criteriosAtendidos = 0;
-          
+
             if (CalcularPontosPorRenda(familia) > 0)
             {
                 criteriosAtendidos++;

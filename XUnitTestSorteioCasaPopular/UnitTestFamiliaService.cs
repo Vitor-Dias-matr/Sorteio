@@ -149,9 +149,9 @@ namespace XUnitTestSorteioCasaPopular
 
 
         [Theory]
-        [InlineData("11", 8)]
-        [InlineData("14", 8)]
-        [InlineData("15", 10)]
+        [InlineData("11", 7)]
+        [InlineData("14", 5)]
+        [InlineData("15", 7)]
         public void TestCalcularPontosTotais(string idFamilia, int pontuacao)
         {
             //Arrange
@@ -176,8 +176,8 @@ namespace XUnitTestSorteioCasaPopular
             //Assert
             var familiaSorteada = lista.First();
             Assert.Equal("14", familiaSorteada.FamiliaId);
-            Assert.Equal(3, familiaSorteada.PontosECriterios.QuantidadeDeCriteriosAtendidos);
-            Assert.Equal(8, familiaSorteada.PontosECriterios.TotalDePontos);
+            Assert.Equal(2, familiaSorteada.PontosECriterios.QuantidadeDeCriteriosAtendidos);
+            Assert.Equal(5, familiaSorteada.PontosECriterios.TotalDePontos);
             Assert.NotNull(familiaSorteada.DataSelecao);
         }
 
