@@ -56,49 +56,50 @@ namespace Service.Service
             return 0;
         }
 
-        public int CalcularPontosPorIdade(Familia familia)
-        {
-            var pessoa = familia.Pessoas
-                .Where(p => p.Tipo == "Pretendente")
-                .FirstOrDefault();
+        //public int CalcularPontosPorIdade(Familia familia)
+        //{
+        //    var pessoa = familia.Pessoas
+        //        .Where(p => p.Tipo == "Pretendente")
+        //        .FirstOrDefault();
 
-            if (pessoa != null)
-            {
-                var idade = Auxiliar.CalculateAge(pessoa.DataDeNascimento);
-                if (idade >= 45)
-                {
-                    return 3;
-                }
-                else if (idade > 30)
-                {
-                    return 2;
-                }
-                else
-                {
-                    return 1;
-                }
-            }
-            return 0;
-        }
+        //    if (pessoa != null)
+        //    {
+        //        var idade = Auxiliar.CalculateAge(pessoa.DataDeNascimento);
+        //        if (idade >= 45)
+        //        {
+        //            return 3;
+        //        }
+        //        else if (idade > 30)
+        //        {
+        //            return 2;
+        //        }
+        //        else
+        //        {
+        //            return 1;
+        //        }
+        //    }
+        //    return 0;
+        //}
 
         public PontosTotaisDto CalcularPontosTotais(Familia familia)
         {
             var ptRenda = CalcularPontosPorRenda(familia);
-            var ptIdade = CalcularPontosPorIdade(familia);
+            //var ptIdade = CalcularPontosPorIdade(familia);
             var ptDependente = CalcularPontosPorDependente(familia);
 
             var qtdCriteriosAtendido = 0;
             if (ptRenda > 0)
                 qtdCriteriosAtendido++;
-            if (ptIdade > 0)
-                qtdCriteriosAtendido++;
+            //if (ptIdade > 0)
+            //    qtdCriteriosAtendido++;
             if (ptDependente > 0)
                 qtdCriteriosAtendido++;
 
 
             return new PontosTotaisDto
             {
-                TotalDePontos = ptRenda + ptIdade + ptDependente,
+                //TotalDePontos = ptRenda + ptIdade + ptDependente,
+                TotalDePontos = ptRenda +  ptDependente,
                 QuantidadeDeCriteriosAtendidos = qtdCriteriosAtendido
             };
         }
@@ -106,10 +107,10 @@ namespace Service.Service
         private int CalcularCriteriosAtendidos(Familia familia)
         {
             var criteriosAtendidos = 0;
-            if (CalcularPontosPorIdade(familia) > 0)
-            {
-                criteriosAtendidos++;
-            }
+            //if (CalcularPontosPorIdade(familia) > 0)
+            //{
+            //    criteriosAtendidos++;
+            //}
             if (CalcularPontosPorRenda(familia) > 0)
             {
                 criteriosAtendidos++;

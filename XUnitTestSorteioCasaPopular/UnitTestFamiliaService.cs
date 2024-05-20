@@ -129,22 +129,22 @@ namespace XUnitTestSorteioCasaPopular
             Assert.Equal(pontuacao, pontos);
         }
 
-        [Theory]
-        [InlineData("12", 1)]
-        [InlineData("13", 3)]
-        [InlineData("14", 3)]
-        [InlineData("15", 3)]
-        public void TestCalcularPontosPorIdade(string idFamilia, int pontuacao)
-        {
-            //Arrange
-            var familia = FuncaoRetornaFamilias().FirstOrDefault(p => p.Id == idFamilia);
+        //[Theory]
+        //[InlineData("12", 1)]
+        //[InlineData("13", 3)]
+        //[InlineData("14", 3)]
+        //[InlineData("15", 3)]
+        //public void TestCalcularPontosPorIdade(string idFamilia, int pontuacao)
+        //{
+        //    //Arrange
+        //    var familia = FuncaoRetornaFamilias().FirstOrDefault(p => p.Id == idFamilia);
 
-            //Act
-            var pontos = _familiaService.CalcularPontosPorIdade(familia);
+        //    //Act
+        //    var pontos = _familiaService.CalcularPontosPorIdade(familia);
 
-            //Assert
-            Assert.Equal(pontuacao, pontos);
-        }
+        //    //Assert
+        //    Assert.Equal(pontuacao, pontos);
+        //}
 
 
         [Theory]
