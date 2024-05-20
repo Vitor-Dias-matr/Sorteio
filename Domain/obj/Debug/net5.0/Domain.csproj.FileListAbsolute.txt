@@ -1,0 +1,11 @@
+E:\Teste Digix\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\Teste Digix\Domain\bin\Debug\net5.0\Domain.dll
+E:\Teste Digix\Domain\bin\Debug\net5.0\Domain.pdb
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.dll
+E:\Teste Digix\Domain\obj\Debug\net5.0\refint\Domain.dll
+E:\Teste Digix\Domain\obj\Debug\net5.0\Domain.pdb
+E:\Teste Digix\Domain\obj\Debug\net5.0\ref\Domain.dll

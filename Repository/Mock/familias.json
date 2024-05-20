@@ -1,0 +1,150 @@
+[
+  {
+    "Id": 1,
+    "pessoas": [
+      {
+        "id": 1,
+        "nome": "João",
+        "tipo": "Pretendente",
+        "dataDeNascimento": "1989-12-30"
+      },
+      {
+        "id": 2,
+        "nome": "Maria",
+        "tipo": "Cônjuge",
+        "dataDeNascimento": "1989-12-30"
+      },
+      {
+        "id": 3,
+        "nome": "José",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2015-12-30"
+      },
+      {
+        "id": 4,
+        "nome": "Angela",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2015-12-30"
+      }
+    ],
+    "rendas": [
+      {
+        "pessoaId": 1,
+        "valor": 1000
+      },
+      {
+        "pessoaId": 2,
+        "valor": 950
+      }
+    ],
+    "status": "0"
+  },
+  {
+    "Id": 2,
+    "pessoas": [
+      {
+        "id": 5,
+        "nome": "Carlos",
+        "tipo": "Pretendente",
+        "dataDeNascimento": "1985-05-20"
+      },
+      {
+        "id": 6,
+        "nome": "Ana",
+        "tipo": "Cônjuge",
+        "dataDeNascimento": "1987-07-15"
+      },
+      {
+        "id": 7,
+        "nome": "Beatriz",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2010-09-10"
+      }
+    ],
+    "rendas": [
+      {
+        "pessoaId": 5,
+        "valor": 1500
+      },
+      {
+        "pessoaId": 6,
+        "valor": 1200
+      }
+    ],
+    "status": "1"
+  },
+  {
+    "Id": 3,
+    "pessoas": [
+      {
+        "id": 8,
+        "nome": "Roberto",
+        "tipo": "Pretendente",
+        "dataDeNascimento": "1978-02-25"
+      },
+      {
+        "id": 9,
+        "nome": "Claudia",
+        "tipo": "Cônjuge",
+        "dataDeNascimento": "1980-11-30"
+      },
+      {
+        "id": 10,
+        "nome": "Felipe",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2008-06-20"
+      }
+    ],
+    "rendas": [
+      {
+        "pessoaId": 8,
+        "valor": 2000
+      },
+      {
+        "pessoaId": 9,
+        "valor": 1500
+      }
+    ],
+    "status": "1"
+  },
+  {
+    "Id": 4,
+    "pessoas": [
+      {
+        "id": 11,
+        "nome": "Lucas",
+        "tipo": "Pretendente",
+        "dataDeNascimento": "1990-08-18"
+      },
+      {
+        "id": 12,
+        "nome": "Fernanda",
+        "tipo": "Cônjuge",
+        "dataDeNascimento": "1992-03-22"
+      },
+      {
+        "id": 13,
+        "nome": "Gabriel",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2012-11-05"
+      },
+      {
+        "id": 14,
+        "nome": "Lara",
+        "tipo": "Dependente",
+        "dataDeNascimento": "2015-01-17"
+      }
+    ],
+    "rendas": [
+      {
+        "pessoaId": 11,
+        "valor": 1800
+      },
+      {
+        "pessoaId": 12,
+        "valor": 1300
+      }
+    ],
+    "status": "0"
+  }
+]

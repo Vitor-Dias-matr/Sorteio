@@ -1,0 +1,15 @@
+E:\Teste Digix\Repository\bin\Debug\net5.0\Repository.deps.json
+E:\Teste Digix\Repository\bin\Debug\net5.0\Repository.dll
+E:\Teste Digix\Repository\bin\Debug\net5.0\Repository.pdb
+E:\Teste Digix\Repository\bin\Debug\net5.0\Domain.dll
+E:\Teste Digix\Repository\bin\Debug\net5.0\Domain.pdb
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.csproj.CoreCompileInputs.cache
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.csproj.CopyComplete
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.dll
+E:\Teste Digix\Repository\obj\Debug\net5.0\refint\Repository.dll
+E:\Teste Digix\Repository\obj\Debug\net5.0\Repository.pdb
+E:\Teste Digix\Repository\obj\Debug\net5.0\ref\Repository.dll
