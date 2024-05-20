@@ -56,31 +56,6 @@ namespace Service.Service
             return 0;
         }
 
-        //public int CalcularPontosPorIdade(Familia familia)
-        //{
-        //    var pessoa = familia.Pessoas
-        //        .Where(p => p.Tipo == "Pretendente")
-        //        .FirstOrDefault();
-
-        //    if (pessoa != null)
-        //    {
-        //        var idade = Auxiliar.CalculateAge(pessoa.DataDeNascimento);
-        //        if (idade >= 45)
-        //        {
-        //            return 3;
-        //        }
-        //        else if (idade > 30)
-        //        {
-        //            return 2;
-        //        }
-        //        else
-        //        {
-        //            return 1;
-        //        }
-        //    }
-        //    return 0;
-        //}
-
         public PontosTotaisDto CalcularPontosTotais(Familia familia)
         {
             var ptRenda = CalcularPontosPorRenda(familia);
